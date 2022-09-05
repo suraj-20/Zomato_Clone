@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    background-color: #fbfbfb;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: poppins;
+    margin-top: 37px;
+    margin-left: 122px;
+    font-weight: 900;
+    color: #192f60;
+    font-weight: 700;
+}
+
+/*filter element starts here*/
+.filter {
+    width: 20%;
+    height: 682px;
+    background-color: white;
+    border: 1px solid #fbfbfb;
+    margin-left: 8%;
+    box-shadow: 0.1px 0.1px 4px;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.head {
+    height: 25px;
+    width: 55px;
+    color: darkblue;
+    margin-top: 17px;
+    margin-left: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.subhead {
+    margin-left: 26px;
+    margin-top: 10px;
+    height: 20px;
+    width: 106px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: rgb(48, 140, 170);
+    font-size: 14px;
+
+}
+
+.box {
+    height: 35px;
+    width: 68%;
+    margin-top: 11px;
+    margin-left: 27px;
+    border: 1px solid lightblue;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+    color: rgb(48, 140, 170);
+}
+
+.cusine {
+    width: 90%;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 27px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: darkblue;
+
+}
+
+.ftelement {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(94, 163, 185);
+    margin-left: 27px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+/*food items starts here*/
+.fooditems {
+    width: 60%;
+    height: 291px;
+    background-color: white;
+    box-shadow: 0px 0.1px 6px;
+    border: 1px soid black;
+    float: right;
+    margin-right: 8%;
+    margin-top: 27px;
+    border-radius: 5px;
+}
+
+.rightimg {
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5%;
+    margin-bottom: 4%;
+    height: 38%;
+    width: 20%;
+}
+
+.rightboxtext {
+    margin-right: 46%;
+    margin-top: 4.5%;
+    font-family: sans-serif;
+    float: right;
+    color: darkblue;
+    margin-bottom: 2%;
+}
+
+.rightboxhead {
+    font-weight: bold;
+    float: right;
+    color: darkblue;
+    font-size: 30px;
+}
+
+.rightboxsub {
+    font-weight: normal;
+    font-size: 17px;
+    margin: auto;
+}
+
+hr {
+    width: 90%;
+    margin-left: 35px;
+}
+
+#heading1 {
+    margin-top: 20px;
+    margin-right: 30%;
+    margin-left: 30px;
+    color: darkblue;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.cuisine {
+    margin-left: 10px;
+}
+
+.bakery {
+    float: right;
+    margin-right: 20%;
+    margin-top: 5px;
+    font-size: 17px;
+
+}
+
+.No-Results {
+    font-size: 2rem;
+    top: 36rem;
+    right: 62rem;
+    position: absolute;
+}
+
+.fooditems:hover {
+    transform: scale(1.01, 1.01);
+}
+
+.paginate {
+    float: right;
+    width: 60%;
+    padding: 50px;
+    padding-left: 200px;
+}
+
+.paginate-btn {
+    padding: 8px 16px;
+    border: 1px solid #8c96ab;
+    background-color: #fff;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 20px;
+}

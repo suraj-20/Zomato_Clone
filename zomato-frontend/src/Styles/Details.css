@@ -1,0 +1,288 @@
+.details {
+  margin-top: 80px;
+}
+
+.images {
+  height: 400px;
+}
+
+.images img {
+  height: 390px;
+}
+
+.carousel .control-dots{
+  margin: -20px;
+}
+
+.restName {
+  height: 43px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.fontSizeFixer {
+  font-size: 16px;
+}
+
+.react-tabs__tab {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  border: none;
+}
+
+.react-tabs__tab--selected {
+  border: none;
+  border-bottom: solid 3px #ce0505;
+}
+
+.about {
+  height: 31px;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.cuisine {
+  height: 40px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin-left: 0px;
+}
+
+.cuisines {
+  height: 30px;
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.text-danger {
+  font-size: 20px;
+}
+
+
+
+.menuPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  background-color: #fff;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: auto;
+  width: 65%;
+}
+
+
+
+.glyphicon {
+  float: right;
+  margin: 0px 0px 0px;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-radius: 5px ;
+}
+
+.itemContainer {
+  background-color: #fff;
+  height: auto;
+  width: 900px;
+  float: left;
+  margin: 5px 0px 5px 5px;
+  display: block;
+  padding: 10px 0px 10px 15px;
+}
+
+.MenuContiner {
+  height: 90%;
+  width: 93%;
+}
+
+#box {
+  width: 350px;
+  display: inline-block;
+  margin-right: 59px  ;
+}
+
+.menuItemName {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.Rupees {
+  font-size: 17px;
+}
+
+.Deep {
+  font-size: 15px;
+}
+
+.img {
+  width: 350px;
+  height: 150px;
+}
+
+.addBtn {
+  width: 75px;
+  height: 40px;
+  font-size: 25px;
+  background-color: #ce0505;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: none;
+}
+
+.subbutton {
+  width: 75px;
+  height: 40px;
+  font-size: 25px;
+  background-color: #ce0505;
+  text-align: center;
+  color: #6b7792;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.minusBtn {
+  background-color: #ce0505;
+  color: #fff;
+  border: none;
+  margin-right: 5px;
+  width: 20px;
+  height: 10px;
+  font-size: 30px ;
+}
+
+.plusBtn {
+  background-color: #ce0505;
+  color: #fff;
+  border: none;
+  margin-left: 5px;
+  width: 20px;
+  height: 10px;
+  font-size: 30px ;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.numBtn {
+  background-color: #ce0505;
+  color: #fff;
+  border: none;
+  width: 20px;
+  height: 10px;
+  font-size: 30px ;
+}
+
+.subtotal {
+  font-size: 25px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 170px;
+}
+
+.sumbit {
+  float: right;
+  width: 75px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+
+
+.paymentPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  background-color: #fff;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.AmountPaid {
+  font-size: 20px;
+  display: inline-block;
+  width: 170px;
+}
+
+.customerName {
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.inputName {
+  margin-left: 10px;
+  width: 180px;
+  height: 25px;
+}
+
+.customerAdd {
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: top;
+}
+
+.inputAdd {
+  height: 60px;
+  margin-left: 10px;
+}
+
+#pay {
+  width: 100%;
+  height: 40px;
+  margin-top: 50px;
+  font-size: 22px;
+}

@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+
+body {
+    background-color: #fbfbfb;
+
+}
+
+html {
+    font-size: 10px;
+}
+
+.topSection {
+    background-image: url('../Assets/Homepage/Homepage1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+}
+
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 10rem;
+    background-color: white;
+    text-align: center;
+    font-size: 6rem;
+    font-family: Poppins;
+    color: red;
+    margin-top: 7rem;
+    font-weight: 600;
+}
+
+.Find-Best-Restaurants {
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+    margin-top: 1.6rem;
+}
+
+.Search {
+    display: flex;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.Search_location {
+    padding: 1rem 1.4rem;
+    margin-right: 2rem;
+    border-radius: .6rem;
+    font-weight: 600;
+    color: #636f88;
+    position: relative;
+}
+
+.Search_restaurants {
+    padding: 1rem 4rem;
+    width: 41rem;
+    border-radius: .6rem;
+    position: relative;
+
+}
+
+.fa-search {
+    font-size: 1.6rem;
+    position: absolute;
+    top: 1.6rem;
+    left: 20rem;
+}
+
+
+.BottomSection {
+    margin-bottom: 10rem;
+    margin-top: -8rem;
+}
+
+.QuickSearches {
+
+    font-weight: 800;
+    color: #192f60;
+    font-size: 3rem;
+    margin-top: 11rem;
+
+}
+
+.disover_restaurants {
+
+    font-size: 1.8rem;
+    opacity: .8;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+.QuickBoxes {
+    box-shadow: .8rem .8rem .6rem rgb(241, 236, 236);
+    margin-bottom: 2rem;
+    height: 16rem;
+    display: flex;
+    margin-right: 3rem;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.Quickimg_box {
+
+    height: 100%;
+
+}
+
+.Quickimg {
+    width: 100%;
+    height: 100%;
+
+}
+
+.QuickText {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.Quickhead {
+
+    color: #192f60;
+    font-size: 1.8rem;
+    margin-top: 10%;
+    font-weight: 600;
+    margin-left: 15%;
+
+}
+
+.QuickPara {
+
+    color: #8c96ab;
+    font-size: 1.4rem;
+    font-family: Poppins;
+    margin-left: 15%;
+
+}
+
+
+.suggestionsBox {
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+    width: 477px;
+    top: 48px;
+    left: 0;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    margin-left: 1px;
+}
+
+.suggestionItem {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+    cursor: pointer;
+}
+
+.suggestionImage {
+    display: inline-block;
+}
+
+.suggestionImage img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.suggestionText {
+    display: inline-block;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.suggestionTextName {
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.suggestionTextLocality {
+    height: 17px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.orderButton {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+}

@@ -1,0 +1,132 @@
+.header {
+    background-color: #ce0505;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.logo1 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px 8px 8px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #ce0505;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: middle;
+}
+
+h2 {
+    font-size: 25px;
+    color: #3b5757;
+    font-family: sans-serif;
+}
+
+.btn-transperant {
+    background-color: transparent;
+    margin: .6rem;
+    font-size: 1.4rem;
+    font-family: Poppins;
+    color: white;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.btn-Login {
+    margin-right: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.btn-Createaccount {
+    border: 1px solid white;
+    padding: .6rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.loginPage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.username {
+    font-size: 17px;
+}
+
+.password {
+    font-size: 16px;
+}
+
+.loginBtn {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4285F4;
+    border: #fff;
+    border-radius: 5px;
+    display: block;
+    font-family: revert;
+}
+
+.cencelBtn {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4285F4;
+    border: #fff;
+    border-radius: 5px;
+    font-family: revert;
+}
+
+.loginpart {
+    text-align: right;
+    margin-top: .5rem;
+}
+
+.form input {
+    margin-top: 10px;
+    height: 40px
+}
+
+.text-white {
+    font-size: 18px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logoutbutton {
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px
+}
